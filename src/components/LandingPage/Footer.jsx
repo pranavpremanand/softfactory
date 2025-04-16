@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { FaLinkedinIn } from "react-icons/fa";
+import { FaLinkedinIn, FaTwitter } from "react-icons/fa";
 import { AiFillInstagram } from "react-icons/ai";
 import { GrFacebookOption } from "react-icons/gr";
 import { clientDetails, logo } from "../../constants";
@@ -25,14 +25,17 @@ const Footer = () => {
             className="w-[15rem] object-contain bg-white rounded-xl"
           />
           <div className="flex mt-3 gap-5 items-center">
-            <Link to="#">
+            <Link to={clientDetails.linkedin}>
               <FaLinkedinIn className="text-2xl" />
             </Link>
-            <Link to="#">
+            <Link to={clientDetails.instagram}>
               <AiFillInstagram className="text-2xl" />
             </Link>
-            <Link to="#">
+            <Link to={clientDetails.facebook}>
               <GrFacebookOption className="text-2xl" />
+            </Link>
+            <Link to={clientDetails.twitter}>
+              <FaTwitter className="text-2xl" />
             </Link>
           </div>
           <div className="space-y-2 flex flex-col">

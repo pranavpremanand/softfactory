@@ -25,7 +25,7 @@ const Header = () => {
               alt="logo"
               width="150"
               height="100"
-              className="h-[4rem] object-contain"
+              className="h-[4rem] scale-[1.1] sm:scale-[1.5] object-contain"
             />
           </ScrollLink>
           <div

@@ -56,6 +56,10 @@ export const clientDetails = {
   email: "support@thesoftfactory.com",
   address:
     "India Unit 101, Oxford Towers, 139, HAL Old Airport Rd, Kodihalli, Bengaluru, Karnataka 560008",
+  linkedin: "https://www.linkedin.com/company/thesoftfactory",
+  twitter:"https://x.com/Softfactor?t=hzg_xyim7QMCq0tG7f90eQ&s=09",
+  facebook:"https://www.facebook.com/profile.php?id=61564369448329",
+  instagram:"https://www.instagram.com/_softfactory_",
 };
 
 // landing page header links
